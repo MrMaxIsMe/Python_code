@@ -1,0 +1,5 @@
+chislo_1, chislo_2, chislo_3, chislo_4 = int(input()), int(input()), int(input()), int(input())
+if chislo_1 + 1 == chislo_3 and chislo_2 + 1 == chislo_4 or chislo_1 - 1 == chislo_3 and chislo_2 - 1 == chislo_4 or chislo_1 - 1 == chislo_3 and chislo_2 + 1 == chislo_4 or chislo_1 + 1 == chislo_3 and chislo_2 - 1 == chislo_4 or chislo_1 == chislo_3 and chislo_2 - 1 == chislo_4 or chislo_1 == chislo_3 and chislo_2 + 1 == chislo_4 or chislo_2 == chislo_4 and chislo_1 - 1 == chislo_3 or chislo_2 == chislo_4 and chislo_1 + 1 == chislo_3 :
+    print('YES')
+else:
+    print('NO')
