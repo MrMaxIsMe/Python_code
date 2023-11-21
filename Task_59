@@ -1,0 +1,28 @@
+a_1, b_1, a_2, b_2 = int(input()), int(input()), int(input()), int(input())
+if a_1 < b_1 < a_2 < b_2:
+    print('пустое множество') #1
+elif a_2 < b_2 < a_1 < b_1:
+    print('пустое множество') #2
+elif a_1 == b_1 == a_2 == b_2:
+    print(a_1, b_1) #3
+elif a_1 < a_2 < b_1 < b_2:
+    print(a_2, b_1) #4
+elif a_2 < a_1 < b_2 < b_1:
+    print(a_1, b_2) #5
+elif a_1 < a_2 < b_1 == b_2:
+    print(a_2, b_1) #6
+elif a_1 < a_2 < b_2 < b_1:
+    print(a_2, b_2) #7
+elif a_1 == a_2 < b_2 < b_1:
+    print(a_2, b_2) #8
+elif a_1 == a_2 < b_1 < b_2:
+    print(a_2, b_1) #9
+elif a_2 < a_1 < b_1 < b_2:
+    print(a_1, b_1) #10
+elif a_2 < a_1 < b_2 == b_1:
+    print(a_1, b_2) #11
+elif a_2 < a_1 == b_2 < b_1:
+    print(b_2) #12
+elif a_1 < a_2 == b_1 < b_2:
+    print(b_1) #13
+
