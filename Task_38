@@ -1,0 +1,5 @@
+chislo_1, chislo_2, chislo_3 = int(input()), int(input()), int(input())
+if chislo_3 - chislo_2 == chislo_2 - chislo_1 :
+    print('YES')
+else:
+    print('NO')
