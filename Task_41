@@ -1,0 +1,9 @@
+vozrast = int(input())
+if vozrast <= 13:
+    print('детство')
+elif 14 <= vozrast <= 24 :
+    print('молодость')
+elif 25 <= vozrast <= 59 :
+    print('зрелость')
+else:
+    print('старость')
