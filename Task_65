@@ -1,0 +1,5 @@
+def_1, def_2, new_1, new_2 = int(input()), int(input()), int(input()), int(input())
+if new_2 - def_2 == - (new_1 - def_1) or new_2 - def_2 == new_1 - def_1 :
+    print('YES')
+else :
+    print('NO')
