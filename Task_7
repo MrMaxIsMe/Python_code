@@ -1,0 +1,4 @@
+str_1, str_2, str_3 = input(), input(), input()
+print(str_1)
+print(str_2)
+print(str_3)
