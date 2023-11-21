@@ -1,0 +1,7 @@
+chislo_1, chislo_2, chislo_3 = int(input()), int(input()), int(input())
+maxim = max(chislo_1, chislo_2, chislo_3)
+minim = min(chislo_1, chislo_2, chislo_3)
+sred = chislo_1 +chislo_2 + chislo_3 - minim - maxim
+print(maxim)
+print(sred)
+print(minim)
