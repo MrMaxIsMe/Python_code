@@ -1,0 +1,5 @@
+chislo = int(input())
+if 999 < chislo < 10000 and (chislo % 7 == 0 or chislo % 17 == 0) :
+    print('YES')
+else:
+    print('NO')
