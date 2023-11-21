@@ -1,0 +1,15 @@
+cvet_1, cvet_2 = input(), input()
+if cvet_1 == 'красный' and cvet_2 == 'синий' or cvet_2 == 'красный' and cvet_1 == 'синий' :
+    print('фиолетовый')
+elif cvet_1 == 'красный' and cvet_2 == 'желтый' or cvet_2 == 'красный' and cvet_1 == 'желтый' :
+    print('оранжевый')
+elif cvet_1 == 'синий' and cvet_2 == 'желтый' or cvet_2 == 'синий' and cvet_1 == 'желтый' :
+    print('зеленый')
+elif cvet_1 == 'синий' and cvet_2 == 'синий' :
+    print('синий')
+elif cvet_1 == 'красный' and cvet_2 == 'красный' :
+    print('красный')
+elif cvet_1 == 'желтый' and cvet_2 == 'желтый' :
+    print('желтый')
+else :
+    print('ошибка цвета')
