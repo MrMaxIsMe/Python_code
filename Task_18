@@ -1,0 +1,4 @@
+chislo_1, chislo_2 = int(input()), int(input())
+print(chislo_1, '+', chislo_2, '=', chislo_1+chislo_2)
+print(chislo_1, '-', chislo_2, '=', chislo_1-chislo_2)
+print(chislo_1, '*', chislo_2, '=', chislo_1*chislo_2)
