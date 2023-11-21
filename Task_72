@@ -1,0 +1,9 @@
+n = int(input())
+if 0 < n <=2 :
+    vozr = n * 10.5
+    print(vozr)
+elif n > 2 :
+    vozr = 2 * 10.5 + (n - 2) * 4
+    print(vozr)
+
+
