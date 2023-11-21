@@ -1,0 +1,5 @@
+chislo_1, chislo_2, chislo_3, chislo_4, chislo_5 = int(input()), int(input()), int(input()), int(input()), int(input())
+maxim = max(chislo_1, chislo_2, chislo_3, chislo_4, chislo_5)
+minim = min(chislo_1, chislo_2, chislo_3, chislo_4, chislo_5)
+print('Наименьшее число =', minim)
+print('Наибольшее число =', maxim)
