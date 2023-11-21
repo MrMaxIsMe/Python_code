@@ -1,0 +1,3 @@
+chislo = float(input())
+chislo = int(chislo * 10) % 10
+print(chislo)
