@@ -1,0 +1,6 @@
+chislo = int(input())
+first_digit, second_digit, third_digit, last_digit = chislo//1000, chislo//100%10, chislo//10%10, chislo%10
+print('Цифра в позиции тысяч равна', first_digit)
+print('Цифра в позиции сотен равна', second_digit)
+print('Цифра в позиции десятков равна', third_digit)
+print('Цифра в позиции единиц равна', last_digit)
