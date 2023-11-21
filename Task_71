@@ -1,0 +1,3 @@
+T_F = float(input())
+T_C = 5 / 9 * (T_F - 32)
+print(T_C)
