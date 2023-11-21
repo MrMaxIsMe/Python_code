@@ -1,0 +1,2 @@
+raz, str_1, str_2, str_3 = input(''), input(''), input(''), input('')
+print(str_1, str_2, str_3, sep=raz)
