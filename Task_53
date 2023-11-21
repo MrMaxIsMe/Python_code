@@ -1,0 +1,13 @@
+chislo_1, chislo_2, chislo_3 = int(input()), int(input()), int(input())
+if chislo_1 < chislo_2 < chislo_3 :
+    print(chislo_2)
+elif chislo_3 < chislo_2 < chislo_1 :
+    print(chislo_2)
+elif chislo_2 < chislo_3 < chislo_1 :
+    print(chislo_3)
+elif chislo_1 < chislo_3 < chislo_2 :
+    print(chislo_3)
+elif chislo_2 < chislo_1 < chislo_3 :
+    print(chislo_1)
+elif chislo_3 < chislo_1 < chislo_2 :
+    print(chislo_1)
