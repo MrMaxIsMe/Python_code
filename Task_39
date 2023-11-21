@@ -1,0 +1,5 @@
+chislo_1, chislo_2 = int(input()), int(input())
+if chislo_1 - chislo_2 > 0 :
+    print(chislo_2)
+else:
+    print(chislo_1)
