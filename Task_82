@@ -1,0 +1,22 @@
+gorod_1, gorod_2, gorod_3 = input(), input(), input()
+minim = min(len(gorod_1), len(gorod_2), len(gorod_3))
+maxim = max(len(gorod_1), len(gorod_2), len(gorod_3))
+dlina_gorod_1 = len(gorod_1)
+dlina_gorod_2 = len(gorod_2)
+dlina_gorod_3 = len(gorod_3)
+na_pechiat_min = ''
+na_pechiat_max = ''
+if minim == dlina_gorod_1 :
+    na_pechiat_min = gorod_1
+elif minim == dlina_gorod_2 :
+    na_pechiat_min = gorod_2
+elif minim == dlina_gorod_3 :
+    na_pechiat_min = gorod_3
+if maxim == dlina_gorod_1 :
+    na_pechiat_max = gorod_1
+elif maxim == dlina_gorod_2 :
+    na_pechiat_max = gorod_2
+elif maxim == dlina_gorod_3 :
+    na_pechiat_max = gorod_3
+print(na_pechiat_min)
+print(na_pechiat_max)
