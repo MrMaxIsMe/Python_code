@@ -1,0 +1,8 @@
+chislo = int(input())
+first_digit, second_digit, last_digit = chislo//100, chislo//10%10, chislo%10
+print(first_digit*100+second_digit*10+last_digit)
+print(first_digit*100+last_digit*10+second_digit)
+print(second_digit*100+first_digit*10+last_digit)
+print(second_digit*100+last_digit*10+first_digit)
+print(last_digit*100+first_digit*10+second_digit)
+print(last_digit*100+second_digit*10+first_digit)
