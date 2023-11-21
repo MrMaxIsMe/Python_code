@@ -1,0 +1,3 @@
+k, n = int(input()), int(input())
+print(n//k)
+print(n%k)
