@@ -1,0 +1,3 @@
+chislo = int(input())
+print('Следующее за числом', chislo, 'число:', chislo+1)
+print('Для числа', chislo, 'предыдущее число:', chislo-1)
