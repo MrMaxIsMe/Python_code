@@ -1,0 +1,8 @@
+chislo_1, chislo_2, chislo_3, counter = int(input()), int(input()), int(input()), 0
+if chislo_1 > 0 :
+    counter = counter + chislo_1
+if chislo_2 > 0 :
+    counter = counter + chislo_2
+if chislo_3 > 0 :
+    counter = counter + chislo_3
+print(counter)
