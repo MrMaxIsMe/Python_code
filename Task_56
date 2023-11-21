@@ -1,0 +1,18 @@
+chislo_1, chislo_2, stroka = int(input()), int(input()), input()
+if stroka == '+' :
+    rezult = chislo_1 + chislo_2
+    print(rezult)
+elif stroka == '-' :
+    rezult = chislo_1 - chislo_2
+    print(rezult)
+elif stroka == '*' :
+    rezult = chislo_1 * chislo_2
+    print(rezult)
+elif stroka == '/' :
+    if chislo_2 == 0 :
+        print('На ноль делить нельзя!')
+    else :
+        rezult = chislo_1 / chislo_2
+        print(rezult)
+else :
+    print('Неверная операция')
