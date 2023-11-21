@@ -1,0 +1,2 @@
+s, v_1, v_2 = float(input()), float(input()), float(input())
+print(s / (v_1 + v_2))
