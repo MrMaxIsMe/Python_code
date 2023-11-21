@@ -1,0 +1,10 @@
+chislo = int(input())
+if 0 <= chislo <= 36:
+    if chislo == 0 :
+        print('зеленый')
+    elif 1 <= chislo <= 10 and chislo % 2 == 1 or 11 <= chislo <= 18 and chislo % 2 == 0 or 19 <= chislo <= 28 and chislo % 2 == 1 or 29 <= chislo <= 36 and chislo % 2 == 0 :
+        print('красный')
+    elif 1 <= chislo <= 10 and chislo % 2 == 0 or 11 <= chislo <= 18 and chislo % 2 == 1 or 19 <= chislo <= 28 and chislo % 2 == 0 or 29 <= chislo <= 36 and chislo % 2 == 1 :
+        print('черный')
+else :
+    print('ошибка ввода')
