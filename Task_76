@@ -1,0 +1,11 @@
+chislo = int(input())
+sotni = chislo // 100
+desyatki = chislo // 10 % 10
+edinitsi = chislo % 10
+maxim = max(sotni, desyatki, edinitsi)
+minim = min(sotni, desyatki, edinitsi)
+sred = sotni + desyatki + edinitsi - minim - maxim
+if maxim - minim == sred :
+    print('Число интересное')
+else :
+    print('Число неинтересное')
