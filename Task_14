@@ -1,0 +1,3 @@
+chislo = int(input())
+print('Объем =', chislo*chislo*chislo)
+print('Площадь полной поверхности =', 6*chislo*chislo)
