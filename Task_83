@@ -1,0 +1,8 @@
+stroka_1, stroka_2, stroka_3 = input(), input(), input()
+minim = min(len(stroka_1), len(stroka_2), len(stroka_3))
+maxim = max(len(stroka_1), len(stroka_2), len(stroka_3))
+sred = len(stroka_1) + len(stroka_2) + len(stroka_3) - minim - maxim
+if sred - minim == maxim - sred :
+    print('YES')
+else :
+    print('NO')
