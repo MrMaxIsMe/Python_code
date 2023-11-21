@@ -1,0 +1,11 @@
+chislo_1, chislo_2, chislo_3, chislo_4 = int(input()), int(input()), int(input()), int(input())
+rezult = 0
+if chislo_1 - chislo_2 > 0 :
+    rezult = chislo_2
+else:
+    rezult = chislo_1
+if rezult - chislo_3 > 0 :
+    rezult = chislo_3
+if rezult - chislo_4 > 0 :
+    rezult = chislo_4
+print(rezult)
