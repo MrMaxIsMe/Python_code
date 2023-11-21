@@ -1,0 +1,5 @@
+chislo = int(input())
+if chislo % 2 == 1 or chislo % 2 == 0 and 6 <= chislo <= 20 :
+    print('YES')
+elif chislo % 2 == 0 and 2 <= chislo <= 5 or chislo % 2 == 0 and chislo > 20 :
+    print('NO')
