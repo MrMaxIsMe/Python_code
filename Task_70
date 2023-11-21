@@ -1,0 +1,6 @@
+chislo = float(input())
+if chislo == 0 :
+    print('Обратного числа не существует')
+else :
+    chislo = chislo ** -1
+    print(chislo)
