@@ -1,0 +1,2 @@
+mon, sis_bl, keyb, mouth = int(input()), int(input()), int(input()), int(input())
+print (3*(mon+sis_bl+keyb+mouth))
