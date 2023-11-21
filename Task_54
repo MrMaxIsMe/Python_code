@@ -1,0 +1,7 @@
+mesyats = int(input())
+if mesyats == 4 or mesyats == 6 or mesyats == 9 or mesyats == 11 :
+    print('30')
+elif mesyats == 2 :
+    print('28')
+else:
+    print('31')
