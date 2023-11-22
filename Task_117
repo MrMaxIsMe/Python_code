@@ -1,0 +1,9 @@
+n = int(input())
+per_1, per_2 = 0, 1
+total = 1
+print(total, end=" ")
+if n > 1 :
+    for i in range(1, n) :
+        total += per_1
+        print(total, end=" ")
+        per_1, per_2 = per_2, per_2 + per_1
