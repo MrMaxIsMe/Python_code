@@ -1,0 +1,4 @@
+slovo = input()
+while slovo != 'КОНЕЦ' :
+    print(slovo)
+    slovo = input()
