@@ -1,0 +1,12 @@
+n = int(input())
+max_1 = 0
+max_2 = 0
+for i in range(1, n + 1) :
+    chislo = int(input())
+    if chislo > max_1 :
+        max_2 = max_1
+        max_1 = chislo
+    elif chislo > max_2 :
+        max_2 = chislo
+print(max_1)
+print(max_2)
