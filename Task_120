@@ -1,0 +1,6 @@
+counter = 0
+slovo = input()
+while slovo != 'стоп' and slovo != 'хватит' and slovo != 'достаточно' :
+    counter += 1
+    slovo = input()
+print(counter)
