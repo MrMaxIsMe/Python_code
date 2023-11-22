@@ -1,0 +1,7 @@
+n = int(input())
+per_1 = 1
+per_2 = 0
+for i in range(1, n + 1) :
+    per_1 *= i
+    per_2 += per_1
+print(per_2)
