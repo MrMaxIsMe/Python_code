@@ -1,0 +1,6 @@
+total = 0
+chislo = int(input())
+while chislo >= 0 :
+    total += chislo
+    chislo = int(input())
+print(total)
