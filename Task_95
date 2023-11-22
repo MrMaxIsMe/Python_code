@@ -1,0 +1,3 @@
+predlozhenie, chislo = str(input()), int(input())
+for i in range(chislo) :
+    print(predlozhenie)
