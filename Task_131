@@ -1,0 +1,14 @@
+chislo = int(input())
+flag = True
+temp_per_1 = 0
+temp_per_2 = 0
+while chislo > 9 :
+    temp_per_1 = chislo % 10
+    temp_per_2 = chislo // 10 % 10
+    if temp_per_1 > temp_per_2 :
+        flag = False
+    chislo = chislo // 10
+if flag == True :
+    print('YES')
+else :
+    print('NO')
