@@ -1,0 +1,58 @@
+# put your python code here
+chislo = int(input())
+# +++++++
+tot_sum = 0
+per_tot_sum = 0
+chislo_tot_sum = chislo
+# +++++++
+am_num = 0
+chislo_am_num = chislo
+# +++++++
+pow_num = 1
+per_pow_num = 0
+chislo_pow_num = chislo
+# +++++++
+awer_amo = 0
+amo_num = 0
+per_awer_amo = 0
+chislo_awer_amo = chislo
+# +++++++
+first_digit = 0
+chislo_first_digit = chislo
+#
+sum_fir_last_digit = 0
+chislo_sum_fir_last_digit = chislo
+#
+while chislo_tot_sum != 0 :
+    per_tot_sum = chislo_tot_sum % 10
+    tot_sum += per_tot_sum
+    chislo_tot_sum = chislo_tot_sum // 10
+print(tot_sum)
+#
+while chislo_am_num != 0 :
+    am_num += 1
+    chislo_am_num = chislo_am_num // 10
+print(am_num)
+#
+while chislo_pow_num != 0 :
+    per_pow_num = chislo_pow_num % 10
+    pow_num *= per_pow_num
+    chislo_pow_num = chislo_pow_num// 10
+print(pow_num)
+#
+while chislo_awer_amo != 0 :
+    per_awer_amo = chislo_awer_amo % 10
+    amo_num += 1
+    awer_amo += per_awer_amo
+    chislo_awer_amo = chislo_awer_amo // 10
+print(awer_amo / amo_num)
+#
+while chislo_first_digit != 0 :
+    first_digit = chislo_first_digit % 10
+    chislo_first_digit = chislo_first_digit // 10
+print(first_digit)
+#
+print(first_digit + chislo_sum_fir_last_digit % 10)
+
+
+
