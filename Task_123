@@ -1,0 +1,9 @@
+chislo = int(input())
+total = 0
+while 0 < chislo < 6 :
+    if chislo == 5 :
+        total += 1
+        chislo = int(input())
+    else:
+        chislo = int(input())
+print(total
