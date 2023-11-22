@@ -1,0 +1,6 @@
+s = 0 #2
+for i in range(7): #1
+    n = int(input()) #4
+    if n % 2 == 0: #3
+        s = s + n
+print(s)
