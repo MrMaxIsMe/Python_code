@@ -1,0 +1,15 @@
+chislo = int(input())
+mx = 0
+mn = 0
+mx = chislo % 10
+mn = chislo % 10
+last_digit = 0
+while chislo / 10 != 0 :
+    last_digit = chislo % 10
+    if last_digit > mx :
+        mx = last_digit
+    if last_digit < mn :
+        mn = last_digit
+    chislo = chislo // 10
+print('Максимальная цифра равна', mx)
+print('Минимальная цифра равна', mn)
