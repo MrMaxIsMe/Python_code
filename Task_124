@@ -1,0 +1,15 @@
+total = 0
+bablo = int(input())
+while bablo - 25 >= 0 :
+    total += 1
+    bablo -= 25
+while bablo - 10 >= 0 :
+    total += 1
+    bablo -= 10
+while bablo - 5 >= 0 :
+    total += 1
+    bablo -= 5    
+while bablo - 1 >= 0 :
+    total += 1
+    bablo -= 1
+print(total)
