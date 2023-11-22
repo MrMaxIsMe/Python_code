@@ -1,0 +1,6 @@
+chislo = int(input())
+last_digit = 0
+while chislo != 0 :
+    last_digit = chislo % 10
+    print(last_digit)
+    chislo = chislo // 10 
