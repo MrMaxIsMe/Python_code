@@ -1,0 +1,7 @@
+n = int(input())
+spisok = []
+for i in range(n) :
+    chislo = int(input())
+    chislo = pow(chislo, 3)
+    spisok.append(chislo)
+print(spisok)
