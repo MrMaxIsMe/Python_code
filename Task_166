@@ -1,0 +1,10 @@
+stroka = input()
+counterplus = 0
+counterstar = 0
+for i in range(len(stroka)):
+    if stroka[i] in '+' :
+        counterplus += 1
+    if stroka[i] in '*' :
+        counterstar += 1
+print('Символ + встречается', counterplus, 'раз')
+print('Символ * встречается', counterstar, 'раз')
