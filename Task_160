@@ -1,0 +1,4 @@
+stroka = input()
+for i in range(0, len(stroka), 2) :
+    print(stroka[i])
+
