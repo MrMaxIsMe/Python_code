@@ -1,0 +1,4 @@
+stroka = input()
+start = stroka.find('h')
+end = stroka.rfind('h')
+print(stroka[0:stroka.find('h')] + stroka[stroka.rfind('h')+1:])
