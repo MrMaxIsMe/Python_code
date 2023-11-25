@@ -1,0 +1,8 @@
+n = int(input())
+counter = 0
+for i in range(n) :
+    sms = input()
+    sub = sms.count('11')
+    if sub >= 3:
+        counter += 1
+print(counter)
