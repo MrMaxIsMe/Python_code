@@ -1,0 +1,7 @@
+stroka = input()
+new_stroka = stroka.lower()
+counter = 0
+for i in range(len(stroka)) :
+    if stroka[i] == new_stroka[i] and stroka[i] in 'qwertyuiopasdfghjklzxcvbnm':
+        counter += 1
+print(counter)
