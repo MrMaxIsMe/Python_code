@@ -1,0 +1,12 @@
+stroka = input()
+glasn = 'ауоыиэяюёеАУОЫИЭЯЮЕЁ'
+counter_glasn = 0
+soglasn = 'бвгджзйклмнпрстфхцчшщБВГДЖЗЙКЛМНПРСТФХЦЧШЩ'
+counter_soglasn = 0
+for i in range(len(stroka)) :
+    if stroka[i] in glasn :
+        counter_glasn += 1
+    elif stroka[i] in soglasn :
+        counter_soglasn += 1
+print('Количество гласных букв равно', counter_glasn)
+print('Количество согласных букв равно', counter_soglasn)
