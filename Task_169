@@ -1,0 +1,10 @@
+chislo = int(input())
+new_variant = ''
+new_variant_2 = ''
+while chislo != 0 :
+    per = chislo % 2
+    new_variant += str(per)
+    chislo //= 2
+for i in range(len(new_variant)-1, -1, -1):
+    new_variant_2 += new_variant[i]
+print(new_variant_2)
