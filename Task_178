@@ -1,0 +1,6 @@
+default = input()
+new = default.title()
+if default == new :
+    print('YES')
+else :
+    print('NO')
