@@ -1,0 +1,6 @@
+chislo, stroka = int(input()), input()
+for i in range(len(stroka)) :
+    koeff = ord(stroka[i])
+    if koeff - chislo < 97 :
+        koeff += 26
+    print(chr(koeff - chislo), end = '')
