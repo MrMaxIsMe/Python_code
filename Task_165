@@ -1,0 +1,10 @@
+stroka = input()
+flag = 'NO'
+for i in range(len(stroka)) :
+    if stroka[i] in "0123456789" :
+        flag = 'YES'
+        break
+if flag == 'NO' :
+    print('Цифр нет')
+else:
+    print('Цифра')
