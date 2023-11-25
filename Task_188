@@ -1,0 +1,7 @@
+stroka = input()
+if stroka.count('f') == 0 :
+    print('NO')
+elif stroka.count('f') == 1 :
+    print(stroka.find('f'))
+elif stroka.count('f') > 1 :
+    print(stroka.find('f'), stroka.rfind('f'))
