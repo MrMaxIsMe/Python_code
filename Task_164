@@ -1,0 +1,5 @@
+s = input()
+sm = 0
+for digit in s:
+    sm += int(digit)    
+print(sm)
