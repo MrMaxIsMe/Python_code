@@ -1,0 +1,13 @@
+stroka = input()
+result = 0
+result = stroka.count('f')
+if result == 1 :
+    result = -1
+    print(result)
+elif result == 0 :
+    result = -2
+    print(result)
+else :
+    stroka = stroka.replace('f', 'a', 1)
+    result = stroka.find('f')
+    print(result)
