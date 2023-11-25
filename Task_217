@@ -1,0 +1,6 @@
+n = int(input())
+result_new = []
+for i in range(n) :
+    stroka = input()
+    result_new.append(stroka)
+print(result_new
