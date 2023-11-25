@@ -1,0 +1,7 @@
+stroka = input()
+operator = len(stroka)
+if operator % 2 == 1 :
+    new_stroka = stroka[operator//2+1:] + stroka[:operator//2+1]
+elif operator % 2 == 0 :
+    new_stroka = stroka[operator//2:] + stroka[:operator//2]
+print(new_stroka)
