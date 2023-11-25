@@ -1,0 +1,3 @@
+name, surname, patronymic = input(), input(), input()
+k = 0
+print(surname[k] + name[k] + patronymic[k])
