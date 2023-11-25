@@ -1,0 +1,6 @@
+stroka = input()
+counter = 0
+for i in range(len(stroka) - 1):
+    if stroka[i] == stroka[i+1] :
+        counter += 1
+print(counter)
