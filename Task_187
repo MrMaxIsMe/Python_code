@@ -1,0 +1,8 @@
+stroka = input()
+counter = 0
+new_counter = 0
+for i in range(len(stroka)) :
+    if stroka.count(stroka[i]) >= counter :
+        per = stroka[i]
+        counter = stroka.count(stroka[i])
+print(per)  
