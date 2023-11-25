@@ -1,0 +1,6 @@
+stroka = input()
+stroka = stroka.upper()
+print('Аденин:', stroka.count('А'))
+print('Гуанин:', stroka.count('Г'))
+print('Цитозин:', stroka.count('Ц'))
+print('Тимин:', stroka.count('Т'))
