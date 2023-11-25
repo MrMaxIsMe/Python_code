@@ -1,0 +1,57 @@
+# put your python code here
+n = int(input())
+chislo_1 = n
+result_1 = 0
+chislo_2 = n
+result_2 = 0
+chislo_3 = n
+result_3 = 0
+chislo_4 = n
+result_4 = 0
+chislo_5 = n
+result_5 = 1
+chislo_6 = n
+result_6 = 0
+#zad_1
+while chislo_1 > 0 :
+    per_1 = chislo_1 % 10
+    if per_1 == 3 :
+        result_1 += 1
+    chislo_1 = chislo_1 // 10
+print(result_1)
+#zad_2
+per_2 = chislo_2 % 10
+while chislo_2 > 0 :
+    perem_2 = chislo_2 % 10
+    if perem_2 == per_2 :
+        result_2 += 1
+    chislo_2 = chislo_2 // 10
+print(result_2)  
+#3
+while chislo_3 > 0 :
+    per_3 = chislo_3 % 10
+    if per_3 % 2 == 0 :
+        result_3 += 1
+    chislo_3 = chislo_3 // 10
+print(result_3)
+#4
+while chislo_4 > 0 :
+    per_4 = chislo_4 % 10
+    if per_4 > 5 :
+        result_4 += per_4
+    chislo_4 = chislo_4 // 10
+print(result_4)
+#5
+while chislo_5 > 0 :
+    per_5 = chislo_5 % 10
+    if per_5 > 7 :
+        result_5 *= per_5
+    chislo_5 = chislo_5 // 10
+print(result_5)
+#6
+while chislo_6 > 0 :
+    per_6 = chislo_6 % 10
+    if per_6 == 5 or per_6 == 0:
+        result_6 += 1
+    chislo_6 = chislo_6 // 10
+print(result_6)
