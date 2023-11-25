@@ -1,0 +1,5 @@
+slovo = input()
+if slovo[:] == slovo[::-1] :
+    print('YES')
+else :
+    print('NO')
