@@ -1,0 +1,6 @@
+n = int(input())
+per = 0
+while n > 100 :
+    per = n % 10
+    n = n // 10
+print(per)
